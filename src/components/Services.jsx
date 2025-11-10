@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Hammer, Factory, Road, Pipeline, MountainSnow } from 'lucide-react'
+import { Hammer, Wrench, Map, Layers, Truck } from 'lucide-react'
 
 const services = [
   {
@@ -9,25 +9,25 @@ const services = [
     img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2c7f7?q=80&w=2069&auto=format&fit=crop'
   },
   {
-    icon: Factory,
+    icon: Wrench,
     title: 'Mechanical Engineering Projects',
     desc: 'Fabrication, erection and commissioning of heavy equipment, plants and industrial systems.',
     img: 'https://images.unsplash.com/photo-1529956151058-4a4e1facc0f4?q=80&w=2069&auto=format&fit=crop'
   },
   {
-    icon: Road,
+    icon: Map,
     title: 'Road and Highway Works',
     desc: 'Construction and maintenance of roads, highways, bridges and urban mobility projects.',
     img: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    icon: Pipeline,
+    icon: Layers,
     title: 'Pipeline Installation and Maintenance',
     desc: 'Laying, testing and maintenance of water, gas and industrial pipelines with safety-first execution.',
     img: 'https://images.unsplash.com/photo-1500281781950-6cd80847ebcd?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    icon: MountainSnow,
+    icon: Truck,
     title: 'Mining Operations and Infrastructure Support',
     desc: 'Overburden removal, haul roads, crushing plants, compliance and end-to-end mining support.',
     img: 'https://images.unsplash.com/photo-1581092332908-39d170fe12cf?q=80&w=2069&auto=format&fit=crop'
